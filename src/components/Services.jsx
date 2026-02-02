@@ -26,7 +26,7 @@ const Services = () => {
             </div>
             <div className="grid col-1 my-4 md:grid-cols-2 lg:grid-cols-3 gap-3 shadow ">
               {Data.map((item, index) => {
-                return <SingleService {...item} />;
+                return <SingleService {...item} key={index} />;
               })}
             </div>
           </div>
