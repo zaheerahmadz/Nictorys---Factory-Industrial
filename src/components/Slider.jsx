@@ -13,12 +13,12 @@ export default function Slider() {
   const swiperRef = useRef(null);
 
   const images = [
-    "./public/Slider/img-1.jpg",
-    "./public/Slider/img-2.jpg",
-    "./public/Slider/img-3.jpg",
-    "./public/Slider/img-4.jpg",
-    "./public/Slider/img-5.jpg",
-    "./public/Slider/img-6.jpg",
+    "/Slider/img-1.jpg",
+    "/Slider/img-2.jpg",
+    "/Slider/img-3.jpg",
+    "/Slider/img-4.jpg",
+    "/Slider/img-5.jpg",
+    "/Slider/img-6.jpg",
   ];
 
   useEffect(() => {
