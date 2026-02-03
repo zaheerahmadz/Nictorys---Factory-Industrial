@@ -31,11 +31,11 @@ const WhyChooseUs = () => {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 ">
           {data.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-xl shadow-sm p-10 text-center hover:shadow-xl transition"
+              className="bg-white rounded-xl shadow-lg  p-10 text-center hover:shadow-xl transition"
             >
               <img
                 src={item.img}

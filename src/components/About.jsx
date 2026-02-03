@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 w-[93%] mx-auto">
         <div className="w-full lg:w-1/2 hidden lg:block">
           <img
-            className="w-full h-auto rounded-lg"
+            className="w-full h-150 object-cover rounded-lg"
             src="https://quomodosoft.com/html/nictorys/assets/images/about-s2.jpg"
             alt="About"
           />

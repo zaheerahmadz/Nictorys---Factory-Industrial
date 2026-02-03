@@ -32,7 +32,7 @@ const ChooseUs = () => {
         </div>
         <div className="w-full lg:w-1/2 hidden lg:block">
           <img
-            className="w-full h-auto rounded-lg"
+            className="w-full h-120 object-cover rounded-lg"
             src="https://quomodosoft.com/html/nictorys/assets/images/skill-img.jpg"
             alt="About"
           />

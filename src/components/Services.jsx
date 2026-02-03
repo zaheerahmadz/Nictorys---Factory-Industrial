@@ -24,7 +24,7 @@ const Services = () => {
             <div className="flex justify-center">
               <Underline />
             </div>
-            <div className="grid col-1 my-4 md:grid-cols-2 lg:grid-cols-3 gap-3 shadow ">
+            <div className="grid col-1 my-4 md:grid-cols-2 lg:grid-cols-3 gap-6 shadow ">
               {Data.map((item, index) => {
                 return <SingleService {...item} key={index} />;
               })}
